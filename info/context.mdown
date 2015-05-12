@@ -1,0 +1,109 @@
+# context
+	 - get 
+		 - typeof gets
+			 -get
+	 - exec 
+		 - typeof execs
+			 -get
+	 - response 
+		 - typeof apiresponseclass
+			 -get
+	 - request 
+		 - typeof apirequestclass
+			 -get
+	 - apiResponse 
+		 - typeof apiresponseclass
+			 -get
+	 - apiRequest 
+		 - typeof apirequestclass
+			 -get
+	 - apiContext 
+		 - typeof apiContext
+			 -get
+	 - cache 
+		 - typeof actionCache
+			 -get
+	 - configuration 
+		 - typeof object
+			 -get
+# context.request
+	 - params 
+		 - typeof object
+			 -get
+	 - headers 
+		 - typeof object
+			 -get
+	 - method 
+		 - typeof string
+			 -get
+	 - url 
+		 - typeof string
+			 -get
+	 - path 
+		 - typeof string
+			 -get
+	 - cookies 
+		 - typeof object
+			 -get
+	 - query 
+		 - typeof object
+			 -get
+	 - href 
+		 - typeof string
+			 -get
+	 - secure 
+		 - typeof boolean
+			 -get
+	 - ip 
+		 - typeof string
+			 -get
+	 - ips 
+		 - typeof string[]
+			 -get
+	 - body 
+		 - typeof object
+			 -get
+# context.response
+	 - header 
+		 - typeof object
+			 -get
+	 - body 
+		 - typeof object
+			 -get
+			 -set
+	 - status 
+		 - typeof nullable`1
+			 -get
+			 -set
+	 - message 
+		 - typeof string
+			 -get
+			 -set
+	 - length 
+		 - typeof nullable`1
+			 -get
+			 -set
+	 - type 
+		 - typeof string
+			 -get
+			 -set
+	 - get(key) 
+		 - returns string 
+	 - set(fields) 
+		 - returns void 
+	 - remove(key) 
+		 - returns void 
+	 - set(key, value) 
+		 - returns void 
+	 - redirect(url, alt) 
+		 - returns void 
+	 - end(args) 
+		 - returns void 
+# context.get
+	 - resource 
+		 - typeof object
+			 -get
+	 - resourceStatus 
+		 - typeof int32
+			 -get
+# context.exec

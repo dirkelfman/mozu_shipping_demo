@@ -1,0 +1,62 @@
+{
+  "ISOCurrencyCode": "USD",
+  "OriginAddress": {
+    "Address1": "123 main street",
+    "Address2": "",
+    "Address3": "",
+    "Address4": "",
+    "CityOrTown": "round rock",
+    "StateOrProvince": "TX",
+    "PostalOrZipCode": "78664",
+    "CountryCode": "US",
+    "AddressType": null,
+    "IsValidated": null
+  },
+  "DestinationAddress": {
+    "Address1": "8103 sunburst parkway",
+    "Address2": "8103 sunburst parkway",
+    "Address3": null,
+    "Address4": null,
+    "CityOrTown": "Round Rock",
+    "StateOrProvince": "TX",
+    "PostalOrZipCode": "78681",
+    "CountryCode": "US",
+    "AddressType": "Residential",
+    "IsValidated": false
+  },
+  "ShippingServiceTypes": [],
+  "OrderTotal": 10.0,
+  "IsDestinationAddressCommercial": false,
+  "Items": [
+    {
+      "ItemId": "39ce44c395174bc98381a496011bc0dc",
+      "ShipsByItself": false,
+      "ProductSummaries": [
+        {
+          "ProductCode": "one",
+          "ProductType": "productType1",
+          "Categories": []
+        }
+      ],
+      "UnitMeasurements": {
+        "Height": {
+          "Unit": "in",
+          "Value": 1.000
+        },
+        "Width": {
+          "Unit": "in",
+          "Value": 1.000
+        },
+        "Length": {
+          "Unit": "in",
+          "Value": 1.000
+        },
+        "Weight": {
+          "Unit": "lbs",
+          "Value": 1.000
+        }
+      },
+      "Quantity": 1
+    }
+  ]
+}

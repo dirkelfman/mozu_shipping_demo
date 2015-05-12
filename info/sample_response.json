@@ -1,0 +1,59 @@
+{
+  "resolvedShippingZoneCode": "United States",
+  "shippingZoneCodes": [
+    "United States"
+  ],
+  "rates": [
+    {
+      "carrierId": "custom",
+      "shippingRates": [
+        {
+          "code": "Standard",
+          "amount": 99.95,
+          "content": {
+            "localeCode": "en-us",
+            "name": "Standards"
+          },
+          "shippingItemRates": [],
+          "customAttributes": [],
+          "messages": [],
+          "data": {
+            "deliveryTime": "4-8 business days",
+            "pitneyBowesQuoteId": 37683
+          }
+        },
+        {
+          "code": "Expedited",
+          "amount": 14.95,
+          "content": {
+            "localeCode": "en-us",
+            "name": "Expedited"
+          },
+          "shippingItemRates": [],
+          "customAttributes": [],
+          "messages": [],
+          "data": {
+            "deliveryTime": "2-3 business days",
+            "pitneyBowesQuoteId": 37683
+          }
+        },
+        {
+          "code": "Express",
+          "amount": 24.95,
+          "content": {
+            "localeCode": "en-us",
+            "name": "Express"
+          },
+          "shippingItemRates": [],
+          "customAttributes": [],
+          "messages": [],
+          "data": {
+            "deliveryTime": "1-2 business days",
+            "pitneyBowesQuoteId": 37683
+          }
+        }
+      ],
+      "customAttributes": []
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "exports": [
+    {
+      "id": "api.commerce.catalog.storefront.shipping.filter.beforeRequestRates",
+      "virtualPath": "./dist\\app.js",
+      "actionId": "api.commerce.catalog.storefront.shipping.filter.beforeRequestRates"
+    },
+    {
+      "id": "api.commerce.catalog.storefront.shipping.filter.afterRequestRates",
+      "virtualPath": "./dist\\app.js",
+      "actionId": "api.commerce.catalog.storefront.shipping.filter.afterRequestRates"
+    },
+    {
+      "id": "embedded.platform.applications.install",
+      "virtualPath": "./dist\\app.js",
+      "actionId": "embedded.platform.applications.install"
+    }
+  ]
+}
