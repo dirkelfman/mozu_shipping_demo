@@ -130,7 +130,7 @@ ShippingHelper.prototype.execute = function() {
   //var serviceUrl = self.context.configuration && self.context.configuration.url ? self.context.configuration.url || 'https://gist.githubusercontent.com/dirkelfman/f946a79edb22c9608f92/raw/5008bc468510d157619bf08db5de83f94e4c9516/shipping1';
 
   //tempUrl Override
-  var serviceUrl = 'https://gist.githubusercontent.com/dirkelfman/f946a79edb22c9608f92/raw?dt='+  new Date().getTime();
+  var serviceUrl = 'https://gist.githubusercontent.com/dirkelfman/f946a79edb22c9608f92/raw/379ebe2ab4d066f1009d68d2742cdac49f5bcab0/shipping1?cb='+  new Date().getTime();
 
   // Request Executes
   // when server ready change to needle.post(serviceUrl, requestPayload, options, function(err, resp) {

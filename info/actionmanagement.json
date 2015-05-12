@@ -1,0 +1,48 @@
+{
+	"actions": [
+		{
+			"actionId": "api.commerce.catalog.storefront.shipping.filter.beforeRequestRates",
+			"contexts": [
+				{
+					"customFunctions": [
+						{
+							"applicationKey": "ib31324.shipping_demo.1.0.0.Release",
+							"functionId": "api.commerce.catalog.storefront.shipping.filter.beforeRequestRates",
+							"configuration": {
+							    "url":
+							}
+							
+						}
+					]
+				}
+			]
+		},
+		{
+			"actionId": "api.commerce.catalog.storefront.shipping.filter.afterRequestRates",
+			"contexts": [
+				{
+					"customFunctions": [
+						{
+							"applicationKey": "ib31324.shipping_demo.1.0.0.Release",
+							"functionId": "api.commerce.catalog.storefront.shipping.filter.afterRequestRates"
+						}
+					]
+				}
+			]
+		},
+		{
+			"actionId": "embedded.platform.applications.install",
+			"contexts": [
+				{
+					"customFunctions": [
+						{
+							"applicationKey": "ib31324.shipping_demo.1.0.0.Release",
+							"functionId": "embedded.platform.applications.install"
+						}
+					]
+				}
+			]
+		}
+	],
+	"configurations": []
+}
