@@ -1,0 +1,10 @@
+{
+  "appKey": "ib31324.eric_sync.1.0.0.release",
+  "sharedSecret": "3ba9529c7417438a9a9f95f8ef39bab8",
+  "baseUrl": "https://home.mozu-si.com",
+  "developerAccountId": "1179",
+  "developerAccount": {
+    "emailAddress": "MozuQA@volusion.com"
+  },
+  "workingApplicationKey": "ib31324.shipping_demo.1.0.0.release"
+}
